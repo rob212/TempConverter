@@ -72,7 +72,7 @@ struct ContentView: View {
                 }
                 
                 Section("Result") {
-                    Text(String(format: "%.1f", convertedValue))
+                    Text(convertedValue.formatted())
              
                 }
                 
